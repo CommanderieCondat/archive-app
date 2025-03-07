@@ -11,7 +11,7 @@ const nextConfig = {
         //     headers: securityHeaders,
         //   },
           {
-            source: '/',
+            source: '/api/:path*',
             headers: [
               { key: 'Access-Control-Allow-Origin', value: '*' },
               { key: 'Access-Control-Allow-Methods', value: 'GET,HEAD,PUT,PATCH,POST,DELETE' },
